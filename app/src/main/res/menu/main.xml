@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_aluno"
+        android:orderInCategory="100"
+        android:title="@string/action_add_aluno"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_modalidade"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="@string/action_add_modalidade"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_matricular_aluno"
+        android:orderInCategory="100"
+        android:title="@string/action_matricular_aluno"
+        app:showAsAction="never" />
+</menu>
